@@ -7,7 +7,8 @@ const corsServer = corsAnywhere.createServer({
       'http://localhost:3000',
       'http://localhost:5000',
       'https://portfolio-ravenous.web.app',
-      'https://portfolio-ravenous.firebaseapp.com'
+      'https://portfolio-ravenous.firebaseapp.com',
+      'https://brianodong.comß'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
